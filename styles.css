@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('/images/coracoes.png'); /* URL da imagem da internet */
+    background-image: url('https://wallpapercat.com/w/full/1/b/c/105955-3840x2160-desktop-4k-heart-wallpaper-photo.jpg'); /* URL da imagem da internet */
     background-size: cover; /* Faz a imagem cobrir toda a tela */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita que a imagem se repita */
@@ -22,10 +22,10 @@ body {
 /* Container principal */
 .container {
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.85); /* Fundo branco semi-transparente para o conteúdo */
+    background-color: rgba(255, 255, 255, 0.86); /* Fundo branco semi-transparente */
     padding: 40px;
     border-radius: 15px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidade */
     max-width: 400px;
     width: 100%;
 }
@@ -43,9 +43,9 @@ h1 {
     justify-content: space-around;
 }
 
-/* Botão "Sim" */
+/* Botão 'Sim' */
 #yes-btn {
-    background-color: #4CAF50;
+    background-color: #28a745; /* Verde */
     color: white;
     padding: 15px 30px;
     border: none;
@@ -55,14 +55,13 @@ h1 {
     transition: background-color 0.3s ease;
 }
 
-/* Efeito hover no botão "Sim" */
 #yes-btn:hover {
-    background-color: #45a049;
+    background-color: #218838; /* Cor mais escura no hover */
 }
 
-/* Botão "Não" */
+/* Botão 'Não' */
 #no-btn {
-    background-color: #f44336;
+    background-color: #dc3545; /* Vermelho */
     color: white;
     padding: 15px 30px;
     border: none;
@@ -72,12 +71,12 @@ h1 {
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-/* Efeito hover no botão "Não" */
 #no-btn:hover {
-    background-color: #e53935;
+    background-color: #c82333; /* Cor mais escura no hover */
 }
 
-/* Transições do botão "Não" ao ser clicado */
-.moved {
+/* Posicionamento aleatório do botão 'Não' */
+#no-btn.moved {
     position: absolute;
+    transition: top 0.2s ease, left 0.2s ease; /* Suaviza o movimento */
 }
