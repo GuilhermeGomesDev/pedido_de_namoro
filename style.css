@@ -1,0 +1,83 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilo do corpo com imagem de fundo da internet */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('/images/coracoes.png'); /* URL da imagem da internet */
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-attachment: fixed; /* Mantém a imagem fixa ao rolar a página */
+}
+
+/* Container principal */
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.85); /* Fundo branco semi-transparente para o conteúdo */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Título da pergunta */
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Estilo dos botões */
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Botão "Sim" */
+#yes-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito hover no botão "Sim" */
+#yes-btn:hover {
+    background-color: #45a049;
+}
+
+/* Botão "Não" */
+#no-btn {
+    background-color: #f44336;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Efeito hover no botão "Não" */
+#no-btn:hover {
+    background-color: #e53935;
+}
+
+/* Transições do botão "Não" ao ser clicado */
+.moved {
+    position: absolute;
+}
