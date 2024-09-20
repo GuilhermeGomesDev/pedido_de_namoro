@@ -22,7 +22,7 @@ body {
 /* Container principal */
 .container {
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.86); /* Fundo branco semi-transparente */
+    background-color: rgba(255, 255, 255, 0.932); /* Fundo branco semi-transparente */
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidade */
