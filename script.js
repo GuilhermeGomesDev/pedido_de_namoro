@@ -1,6 +1,6 @@
 // Função que redireciona para uma música no YouTube quando o botão "Sim" é clicado
 document.getElementById("yes-btn").addEventListener("click", function() {
-    window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "_blank"); // Abre o link em uma nova aba
+    window.open("https://www.youtube.com/watch?v=vn9osu2IdZY", "_blank"); // Abre o link em uma nova aba
 });
 
 // Função para mover o botão "Não" para uma posição aleatória na tela
